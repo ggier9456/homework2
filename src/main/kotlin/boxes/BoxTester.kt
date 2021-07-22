@@ -11,7 +11,7 @@ fun main(args:Array<String>) {
     var box5=Box5()
     println("plz choice Box : (A) Box3/(B) Box5")
     letter= readLine().toString()
-    if (letter.equals("A")){
+    if (letter == "A"){
         println("plz enter object's length:")
         length= readLine()!!.toFloat()
         println("plz enter object's width:")
@@ -25,7 +25,7 @@ fun main(args:Array<String>) {
             println("Your object too big!!")
         }
     }
-    else if(letter.equals("B")){
+    else if(letter == "B"){
         println("plz enter object's length:")
         length= readLine()!!.toFloat()
         println("plz enter object's width:")
