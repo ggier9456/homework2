@@ -51,12 +51,7 @@ class Box3(){
     var width : Float = 0.0f
     var height : Int = 0
     fun validate(length: Float,width:Float,height:Int) : Boolean{
-    if (length>23||width>14||height>13){
-        return false
-    }
-        else{
-            return true
-    }
+        return !(length>23||width>14||height>13)
     }
 
 }
@@ -66,12 +61,7 @@ class Box5(){
     var width : Float = 0.0f
     var height : Int = 0
     fun validate(length: Float,width:Float,height:Int) : Boolean{
-        if (length>39.5||width>27.5||height>23){
-            return false
-        }
-        else{
-            return true
-        }
+        return !(length>39.5||width>27.5||height>23)
     }
 
 }
