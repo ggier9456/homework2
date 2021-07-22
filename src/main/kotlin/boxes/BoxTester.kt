@@ -3,14 +3,13 @@ package com.boxes
 import sun.security.util.Length
 
 fun main(args:Array<String>) {
-    val letter :String
     var length : Float
     var width : Float
     var height : Int
     var box3=Box3()
     var box5=Box5()
     println("plz choice Box : (A) Box3/(B) Box5")
-    letter= readLine().toString()
+    val letter :String = readLine().toString()
     if (letter == "A"){
         println("plz enter object's length:")
         length= readLine()!!.toFloat()
