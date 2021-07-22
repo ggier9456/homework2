@@ -46,7 +46,7 @@ fun main(args:Array<String>) {
 
 
 
-class Box3{
+class Box3(){
     var length : Float = 0.0f
     var width : Float = 0.0f
     var height : Int = 0
@@ -61,7 +61,7 @@ class Box3{
 
 }
 
-class Box5{
+class Box5(){
     var length : Float = 0.0f
     var width : Float = 0.0f
     var height : Int = 0
